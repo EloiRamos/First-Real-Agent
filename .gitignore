@@ -1,0 +1,378 @@
+# ==============================================================================
+# AI Customer Support Agent - .gitignore
+# Comprehensive ignore patterns for Python-based AI agent project
+# ==============================================================================
+
+# ==============================================================================
+# PYTHON-SPECIFIC IGNORES
+# ==============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Virtual environments
+# ==============================================================================
+# VIRTUAL ENVIRONMENT FILES
+# ==============================================================================
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ==============================================================================
+# IDE AND EDITOR FILES
+# ==============================================================================
+
+# VSCode
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+# ==============================================================================
+# OS-SPECIFIC FILES
+# ==============================================================================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Icon?
+
+# Linux
+*~
+
+# Network drives
+.netrwhist
+
+# ==============================================================================
+# ENVIRONMENT AND CONFIGURATION FILES WITH SECRETS
+# ==============================================================================
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# Configuration files that may contain secrets
+config.local.json
+config.local.js
+config.local.ts
+settings.local.json
+settings.local.py
+
+# API keys and secrets (various formats)
+*.key
+*.pem
+*.p12
+*.pfx
+secrets.json
+secrets.yml
+secrets.yaml
+credentials.json
+auth.json
+
+# ==============================================================================
+# DATABASE FILES
+# ==============================================================================
+
+# SQLite databases (common for development/testing)
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Specific database files mentioned in project
+inventory.db
+orders.db
+tickets.db
+
+# Other database formats
+*.mdb
+*.accdb
+*.pdb
+*.mdf
+*.ldf
+
+# Database connection files
+*.dsn
+
+# ==============================================================================
+# LOG FILES AND TEMPORARY FILES
+# ==============================================================================
+
+# Application logs
+*.log
+logs/
+log/
+tmp/
+temp/
+
+# Specific log files mentioned in project
+agent_logs.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.backup
+
+# Cache directories
+.cache/
+*.cache
+
+# Session files
+*.session
+sessions/
+
+# ==============================================================================
+# API KEYS AND SENSITIVE DATA
+# ==============================================================================
+
+# API keys (various services)
+api_key.txt
+api_keys.json
+.openai_key
+.anthropic_key
+.huggingface_token
+.github_token
+
+# OAuth tokens
+oauth_token.txt
+access_token.txt
+refresh_token.txt
+
+# Certificates and keys
+*.crt
+*.cer
+*.der
+*.key
+private.key
+public.key
+
+# ==============================================================================
+# TESTING AND DEVELOPMENT
+# ==============================================================================
+
+# Test coverage reports
+coverage/
+.coverage.*
+htmlcov/
+
+# Test results
+test_results/
+*.xml
+junit.xml
+pytest.ini
+
+# Mock data and fixtures
+mock_data/
+fixtures/
+test_data/
+
+# ==============================================================================
+# DEPLOYMENT AND PRODUCTION
+# ==============================================================================
+
+# Deployment artifacts
+deploy/
+deployment/
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Kubernetes
+*.yaml
+!values.yaml
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+terraform.tfvars
+
+# AWS
+.aws/
+*.pem
+
+# ==============================================================================
+# MISCELLANEOUS
+# ==============================================================================
+
+# Project specific
+# Add any project-specific files that shouldn't be tracked
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Node.js (if using any frontend components)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# End of .gitignore

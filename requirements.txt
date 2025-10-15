@@ -1,0 +1,7 @@
+# Core LangChain dependencies
+langchain==0.3.27
+langchain-openai==0.3.35
+python-dotenv==1.0.0
+
+# Note: These are the exact versions that were installed and tested.
+# Update with caution as newer versions may introduce breaking changes.
