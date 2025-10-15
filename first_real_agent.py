@@ -262,11 +262,11 @@ prompt = ChatPromptTemplate.from_messages([
     MessagesPlaceholder(variable_name="agent_scratchpad")             # Tool execution trace
 ])
 
-# Initialize OpenAI GPT-4 with conservative settings
+# Initialize OpenAI GPT-5-nano with conservative settings
 # Temperature=0 ensures consistent, deterministic responses
 # API key loaded from environment variables for security
 llm = ChatOpenAI(
-    model="gpt-4",
+    model="gpt-5-nano",
     temperature=0,  # Deterministic responses for reliability
     openai_api_key=os.getenv("OPENAI_API_KEY")  # Secure credential management
 )

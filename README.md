@@ -2,11 +2,11 @@
 
 [![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)](https://python.org)
 [![LangChain](https://img.shields.io/badge/LangChain-0.3.27-green.svg)](https://python.langchain.com/)
-[![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4-yellow.svg)](https://openai.com/)
+[![OpenAI](https://img.shields.io/badge/OpenAI-GPT--5--nano-yellow.svg)](https://openai.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-> An intelligent customer support agent that handles e-commerce inquiries with guardrails, monitoring, and comprehensive logging. Built with LangChain, OpenAI GPT-4, and SQLite for reliable, scalable customer service automation.
+> An intelligent customer support agent that handles e-commerce inquiries with guardrails, monitoring, and comprehensive logging. Built with LangChain, OpenAI GPT-5-nano, and SQLite for reliable, scalable customer service automation.
 
 ## 📋 Table of Contents
 
@@ -69,13 +69,13 @@ graph TB
 
 ### Component Overview
 
-| Component      | Description                        | Technology               |
-| -------------- | ---------------------------------- | ------------------------ |
-| **Agent Core** | Main agent logic and orchestration | LangChain + OpenAI GPT-4 |
-| **Tools**      | Business logic functions           | Python decorators        |
-| **Databases**  | Data persistence layer             | SQLite                   |
-| **Monitoring** | Performance tracking               | Custom metrics           |
-| **Logging**    | Audit trail and debugging          | Python logging           |
+| Component      | Description                        | Technology                    |
+| -------------- | ---------------------------------- | ----------------------------- |
+| **Agent Core** | Main agent logic and orchestration | LangChain + OpenAI GPT-5-nano |
+| **Tools**      | Business logic functions           | Python decorators             |
+| **Databases**  | Data persistence layer             | SQLite                        |
+| **Monitoring** | Performance tracking               | Custom metrics                |
+| **Logging**    | Audit trail and debugging          | Python logging                |
 
 ## 🚀 Quick Start
 
@@ -153,7 +153,7 @@ print('Databases initialized successfully!')
 
 | Variable         | Description                                 | Required | Default |
 | ---------------- | ------------------------------------------- | -------- | ------- |
-| `OPENAI_API_KEY` | OpenAI API key for GPT-4 access             | Yes      | -       |
+| `OPENAI_API_KEY` | OpenAI API key for GPT-5-nano access        | Yes      | -       |
 | `LOG_LEVEL`      | Logging level (DEBUG, INFO, WARNING, ERROR) | No       | INFO    |
 | `MAX_ITERATIONS` | Maximum agent iterations                    | No       | 5       |
 | `TEMPERATURE`    | LLM temperature setting                     | No       | 0       |
@@ -659,7 +659,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-**Built with ❤️ using [LangChain](https://python.langchain.com/) and [OpenAI GPT-4](https://openai.com/)**
+**Built with ❤️ using [LangChain](https://python.langchain.com/) and [OpenAI GPT-5-nano](https://openai.com/)**
 
 ⭐ Star this repo if you found it helpful!
 
