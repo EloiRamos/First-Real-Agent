@@ -213,6 +213,7 @@ config.local.js
 config.local.ts
 settings.local.json
 settings.local.py
+.kilocode/mcp.json
 
 # API keys and secrets (various formats)
 *.key
